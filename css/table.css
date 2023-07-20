@@ -1,0 +1,331 @@
+.btn-success a {
+    color: #fff;
+}
+
+.table-responsive {
+   width: 98%;
+   margin: 25px auto;
+   border-collapse: collapse;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-bottom: none;
+   text-align: center;
+   font-size: 13px;
+}
+
+.table-responsive tr {
+   border-top: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
+}
+
+.info, .success, .error {
+   border: 1px solid;
+   margin: 10px auto;
+   padding:15px 10px 15px 50px;
+   background-repeat: no-repeat;
+   background-position: 10px center;
+   text-align: center;
+   border-radius: 8px;
+}
+
+.info {
+   color: #00529B;
+   background-color: #BDE5F8;
+   background-image: url('../images/info.png');
+}
+
+.success {
+   color: #4F8A10;
+   background-color: #DFF2BF;
+   background-image:url('../images/success.png');
+}
+
+.error {
+   color: #D8000C;
+   background-color: #FFBABA;
+   background-image: url('../images/error.png');
+}
+
+table#commessa {
+   width: 100%;
+   padding-top: 10px;
+   margin: 0;
+   border-collapse: collapse;
+}
+
+table#commessa td {
+   padding: 5px 0;
+   text-align: left;
+   font-size: 17px;
+}
+
+table#commessa tr {
+   background: none;
+   padding: 0;
+   margin: 0;
+}
+
+table#commessa input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+table#commessa input[type="text"].t1  {
+   width: 300px;
+}
+
+table#commessa input[type="text"].t2 {
+   width: 80px;
+   margin-right: 5px;
+}
+
+table#commessa img {
+   margin: 0 15px;
+}
+
+/*CREO UNA CLASSE DA APPLICARE AL CAMPO NOTE PRESENTE IN AGGIORNA_APPUNTAMENTO.PHP*/
+
+
+.container-appuntamento {
+    margin-top: 20px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-ric-intervento {
+    margin-top: 20px;
+    max-width: 100%;
+    /*width: 100%;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-ricerca-nulla {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-interventi{
+    background: snow;
+    padding: 5px;
+}
+
+.fatturato{
+    width: 95%;
+    padding: 10px;
+    margin: 5px auto;
+    text-align: left;
+}
+
+.intestazione_fatturato {
+    font-family:Arial, Helvetica, sans-serif;
+    color:green;
+    text-align: left;
+}
+
+/*CREO UN ELEMENTO BLOCCO*/
+.block{clear:left;}
+
+
+.container-messaggio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-menu-superiore{
+	background-color:#F2F2F2;
+	padding: 10px;
+    text-align:center;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.container-badge-footer{
+    background-color:#F2F2F2;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.center-button{
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.table-danger-rs, .table-danger-rs > td, .table-danger-rs > th {
+    text-indent:-9999px;
+	background:url("../images/rosso_40.png") no-repeat center;
+	/*padding:5px;*/
+	/*width:50px;*/
+	/*height:50px;*/
+}
+
+
+.table-warning-rs, .table-warning-rs > td, .table-danger-rs > th {
+    text-indent:-9999px;
+	background:url("../images/giallo_40.png") no-repeat center;
+	/*width:55px;*/
+	/*height:55px;*/
+}
+
+.table-success-rs, .table-success-rs > td, .table-success-rs > th {
+    text-indent:-9999px;
+	background:url("../images/verde_40.png") no-repeat center;
+	/*width:55px;*/
+	/*height:55px;*/
+}
+
+
+.table-warning-mec, .table-warning-mec > td, .table-warning-mec > th {
+    text-indent:-9999px;
+	background:url("../images/meccanica_40.png") no-repeat center;
+	/*width:55px;*/
+	/*height:55px;*/
+}
+
+.table-warning-pneus, .table-warning-pneus > td, .table-warning-pneus > th {
+    text-indent:-9999px;
+	background:url("../images/pneumatici_40.png") no-repeat center;
+	/*width:55px;*/
+	/*height:55px;*/
+}
+
+.table-warning-car, .table-warning-car > td, .table-warning-car > th {
+    text-indent:-9999px;
+	background:url("../images/carrozzeria_40.png") no-repeat center;
+	/*width:55px;*/
+	/*height:55px;*/
+}
+
+.table-danger-maieseguito, .table-danger-maieseguito > td, .table-danger-maieseguito > th {
+	text-indent:-9999px;
+	background:url("../images/annullato_40.png") no-repeat center;
+	padding:5px;
+	width:50px;
+	height:50px;
+}
+
+
+.tip-pren-noleggio, .tip-pren-noleggio > td, .tip-pren-noleggio > th {
+    color: #9ABF00;
+    font-weight: bold;
+    text-align: left !important; /*Riga modificata 26-11-2019 per allineare a sx il testo nella colonna Cliente */
+}
+
+.tip-pren-privato, .tip-pren-privato > td, .tip-pren-privato > th {
+    color: #F99A58;
+    font-weight: bold;
+    text-align: left !important;
+}
+
+.box-tlav{
+	width:20%;
+    background-color:#6DE015;
+	color:#fff;
+	border-left:1px solid #ccc;
+	padding:1rem;
+	height:100px;
+	margin-left:15px;
+	margin-bottom:0px;
+	float: left;
+}
+
+.box-tlav{
+	width:20%;
+    background-color:#6DE015;
+	color:#fff;
+	border-left:1px solid #ccc;
+	padding:1rem;
+	height:100px;
+	margin-left:15px;
+	margin-bottom:0px;
+	/*display:none;*/
+	}
+	
+	
+.box-record{
+	width:20%;
+    background-color:#FFEE00;
+	color:#fff;
+	border-left:1px solid #ccc;
+	padding:1rem;
+	height:100px;
+	margin-left:15px;
+	margin-bottom:0px;
+	float: left;
+}
+
+
+.box-oreoperai{
+	width:20%;
+    background-color:#FFD986;
+	color:#fff;
+	border-left:1px solid #ccc;
+	padding:1rem;
+	height:100px;
+	margin-left:15px;
+	margin-bottom:0px;
+	float: left;
+}
+
+.testata-ore{
+	text-align: center;
+	font-size:1.4em;
+	font-weight:bold;
+	color: #0056AB;
+}
+
+.totale-ore{
+	text-align: center;
+	font-size:1.4em;
+}
+
+
+.tlavcss{
+    color: #0056AB;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.stylecliente{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-weight: bold;
+    color:#cd5c5c;
+}

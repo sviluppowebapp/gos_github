@@ -1,0 +1,211 @@
+/* Main LOGIN CSS Styles */
+
+body {
+   padding: 0;
+   margin: 0;
+}
+
+img.bg{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+   z-index:-9999;
+   background-size: cover;
+}
+
+.wrapper {
+   width: 400px;
+   height: 360px;
+   margin: 150px auto;
+   padding: 0;
+   background: #ffffff;
+   border: 6px solid #c0cdd2;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+/* LOGIN BLOCK */
+.login-block {
+    width: 310px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 20px solid #ddbe86;
+    border-left: 1px solid #ddbe86;
+    border-right: 1px solid #ddbe86;
+    border-bottom: 1px solid #ddbe86;
+    margin: 15px auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block p {
+   padding: 5px 0;
+   margin: 0;
+   font-family: Arial;
+}
+
+.login-block a:link, a:visited {
+   color: #333;
+}
+
+
+.login-block input#username, input#surname {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#email:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.messaggio { 
+    text-align: center; 
+    font-weight: bold;
+    border-radius: 8px;
+    color: red;
+}
+
+.bottone {
+    width: 100%;
+    height: 40px;
+    background: #ddbe86;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #413F3C;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+/* END LOGIN BLOCK */
+
+.form {
+   width: 96.5%;
+   margin: 0 20px;
+}
+
+.form-group {
+   margin: 30px 30px;
+}
+
+.form-group input[type="text"] {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    width: 300px; 
+}
+
+.form-group button {
+   margin: 10px 0;
+}
+
+.form-container {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+.form-inline {
+   width: 80%;
+   margin: 20px auto;
+   padding: 10px 0;
+   -moz-box-align: center;
+   align-items: center;
+   display: flex;
+   flex-flow: row wrapper;
+   border: 0px solid #c0cdd2;
+   border-radius: 10px;
+}
+
+.form-inline .row {
+   width: 100%;
+   margin: 20px 0;
+   padding: 0;
+}
+
+.form-inline .input-group {
+   margin: 0 19px;
+}
+
+.right {
+   margin: 20px 15px;
+   display: block;
+   float: right;
+}
+
+.right-privacy {
+   margin: 20px 15px;
+   display: block;
+   float: right;
+   background-color:#0C4EA5;
+}
+
+select {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    height: 40px;
+    color: #464a4c;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
